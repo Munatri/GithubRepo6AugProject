@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/Munatri
   gitUsername: Munatri
   gitBranch: main
+- name: CachingGitPackage
+  gitServerName: GithubOrigin
+  gitUrl: https://github.com/Munatri
+  gitUsername: Munatri
+  gitBranch: main
 services:
 - serviceName: project.githubrepo6aug.integrations:tdaf
   packages:
