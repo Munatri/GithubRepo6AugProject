@@ -7,3 +7,16 @@ packages:
   gitUrl: https://github.com/Munatri
   gitUsername: Munatri
   gitBranch: main
+services:
+- serviceName: project.githubrepo6aug.integrations:tdaf
+  packages:
+  - name: GithubRepo6AugProject
+    version: "1.0"
+- serviceName: project.githubrepo6aug.referencedata:r1
+  packages:
+  - name: GithubRepo6AugProject
+    version: "1.0"
+- serviceName: pub.string:concat
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2074
